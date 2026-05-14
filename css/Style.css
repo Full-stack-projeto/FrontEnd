@@ -22,13 +22,14 @@ header {
 
 /* logo */
 .logo h3 {
+    border-radius: 1 px solid red;
     font-size: 28px;
     color: #222;
 }
 
 .logo p {
     font-size: 14px;
-    color: #666;
+    color: #737371;
 }
 
 /* menu */
@@ -105,4 +106,194 @@ nav ul li a:hover {
 
 .btn-secundario:hover{
     background-color: #ffffff2f;
+}
+
+
+/* seção dados */
+
+.dados {
+    background-color: white;
+    padding: 60px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    flex-wrap: wrap;
+
+    margin: 0 auto;
+}
+
+.item {
+    text-align: center;
+}
+
+.icone {
+    width: 60px;
+    height: 60px;
+    background-color: #ffe5ea;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+    font-size: 24px;
+}
+
+.item h2 {
+    font-size: 48px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.item p {
+    color: #6b7280;
+    font-size: 18px;
+}
+
+/* causas urgentes */
+
+.causas {
+    padding: 80px 60px;
+}
+
+.topo-causas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.topo-causas h2 {
+    font-size: 48px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.topo-causas p {
+    font-size: 20px;
+    color: #6b7280;
+}
+
+.topo-causas a {
+    text-decoration: none;
+    color: #e63946;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 420px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.conteudo-card {
+    padding: 25px;
+}
+
+.conteudo-card h3 {
+    font-size: 32px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.conteudo-card p {
+    font-size: 20px;
+    color: #6b7280;
+}
+
+.tag {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 8px 18px;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.urgente {
+    background-color: orange;
+}
+
+.critico {
+    background-color: red;
+}
+
+.alta {
+    background-color: #facc15;
+}
+
+
+/* categorias */
+
+.categoria-container{
+    border: 1px solid red;
+    background-color: white;
+    padding: 60px;
+}
+
+.titulo-dados{
+    /* border: 1px solid red;    */
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+
+.cards-categoria{
+    display: flex;
+    gap: 25px;
+    align-items: ce;
+}
+
+.roupas{
+    width: 350px;
+    border: solid 2px #00000036;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.calcados{
+    width: 350px;
+    border: solid 2px #00000036;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.moveis{
+    width: 350px;
+    border: solid 2px #00000036;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.outros{
+    width: 350px;
+    border: solid 2px #00000036;
+    border-radius: 10px;
+    padding: 30px;
 }
