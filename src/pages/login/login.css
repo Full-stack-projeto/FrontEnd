@@ -1,0 +1,16 @@
+.Login{  
+
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /*background: #f0f2f5;*/
+     background: linear-gradient(to right, #d90429, #c9184a, #9d4edd);
+}
+.Formulario{
+     background: white;
+  padding: 30px;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
