@@ -1,6 +1,7 @@
 import {Routes,Route} from "react-router-dom";
 import { NotFound } from "../pages/notfound/Index";
 import Login from "../pages/login/Index";
+ import {Index as Cadastro} from "../pages/cadastro/Index";
 
 
 export function AppRoutes() {
@@ -12,6 +13,7 @@ export function AppRoutes() {
         <Route path="/sobre" element={<Sobre/>}/> 
         <Route path="/inicio" element={<Cadastro/>}/>  */}
        <Route path="/login" element={<Login/>}/>
+        <Route path="/cadastro" element={<Cadastro/>}/> 
         <Route path="/notfound" element={<NotFound/>}/>
 
     </Routes>
